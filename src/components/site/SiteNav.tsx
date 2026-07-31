@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/sampoorn-logo.png.asset.json";
+import logo from "@/assets/sampoorn-logo.png";
 
 const NAV = [
   { to: "/about", label: "About" },
@@ -37,7 +37,7 @@ export function SiteNav() {
           className="flex items-center gap-3 group outline-none focus:outline-none focus-visible:outline-none"
           aria-label="Sampoorn home"
         >
-          <img src={logoAsset.url} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
+          <img src={logo} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
           <span className="text-2xl font-semibold tracking-tight text-foreground whitespace-nowrap">Sampoorn</span>
         </Link>
 

@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/sampoorn-logo.png.asset.json";
+import logo from "@/assets/sampoorn-logo.png";
 
 const COLS = [
   {
@@ -39,7 +39,7 @@ export function SiteFooter() {
         <div className="grid gap-14 lg:grid-cols-[1.4fr_2fr]">
           <div>
             <div className="flex items-center gap-3">
-              <img src={logoAsset.url} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
+              <img src={logo} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
               <span className="text-2xl font-semibold tracking-tight text-white/90 whitespace-nowrap">Sampoorn</span>
             </div>
             <p className="serif mt-6 max-w-md text-2xl leading-tight text-white/90">
