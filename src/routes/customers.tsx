@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CTABanner, PageHero, Section, SectionHeading } from "@/components/site/Primitives";
 import customerLogo from "@/assets/customer-placeholder.png.asset.json";
-import skillPassportLogo from "@/assets/skill-passport.png.asset.json";
-import openSkillLogo from "@/assets/openskill.svg.asset.json";
-import campusHireLogo from "@/assets/campushire.png.asset.json";
+import skillPassportLogo from "@/assets/skill-passport.png";
+import openSkillLogo from "@/assets/openskill.svg";
+import campusHireLogo from "@/assets/campushire.png";
 
 export const Route = createFileRoute("/customers")({
   head: () => ({
@@ -18,9 +18,9 @@ export const Route = createFileRoute("/customers")({
 });
 
 const CUSTOMERS = [
-  { name: "Skill Passport", logo: skillPassportLogo.url },
-  { name: "Open Skill Foundation", logo: openSkillLogo.url },
-  { name: "CampusHire", logo: campusHireLogo.url },
+  { name: "Skill Passport", logo: skillPassportLogo},
+  { name: "Open Skill Foundation", logo: openSkillLogo},
+  { name: "CampusHire", logo: campusHireLogo},
 ];
 
 function LogoTile({ name, logo }: { name: string; logo: string }) {
