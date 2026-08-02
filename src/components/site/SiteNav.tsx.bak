@@ -31,7 +31,16 @@ export function SiteNav() {
         scrolled ? "backdrop-blur-xl bg-background/70 border-b hairline" : "bg-transparent border-b border-transparent",
       ].join(" ")}
     >
-      
+      <div className="container-page flex h-16 items-center justify-between md:h-20">
+        <Link
+          to="/"
+          className="flex items-center gap-3 group outline-none focus:outline-none focus-visible:outline-none"
+          aria-label="Sampoorn home"
+        >
+          <img src={logo} alt="Sampoorn" className="h-20 w-auto rounded-md object-contain" />
+          <span className="text-2xl font-semibold tracking-tight text-foreground whitespace-nowrap">Sampoorn</span>
+        </Link>
+
         <nav className="hidden lg:flex items-center gap-1">
           {NAV.map((item) => (
             <Link
