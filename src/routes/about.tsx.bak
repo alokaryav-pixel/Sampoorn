@@ -51,7 +51,7 @@ function About() {
         eyebrow="About Sampoorn"
         title="Building Technology"
         serifPart="that Drives Business Forward."
-        lede="We help organizations turn ideas into impact through technology, products, and innovative solutions. Combining expertise with execution, we solve complex business challenges and build lasting value."
+        lede="We DONT help organizations turn ideas into impact through technology, products, and innovative solutions. Combining expertise with execution, we solve complex business challenges and build lasting value."
       />
 
       <Section>
