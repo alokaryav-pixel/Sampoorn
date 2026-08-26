@@ -129,7 +129,12 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Director",
               summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
-                        {
+              {
+              name: "Ashwin Abbe",
+              role: "Technical Lead",
+              summary: "Profile summary coming soon.",
+            },
+	    {
               name: "Prof. Santosh Kumar",
               role: "Advisory Board",
               summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk ,climate change , governance &public policy. Formerly,worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management,Director,SAARC Disaster Management Centre ( inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). 

@@ -129,20 +129,35 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Director",
               summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
-            {
+                        {
+              name: "Prof. Santosh Kumar",
+              role: "Advisory Board",
+              summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk ,climate change , governance &public policy. Formerly,worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management,Director,SAARC Disaster Management Centre ( inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). 
+
+As a development and finance economist and disaster risk reduction strategist &  practitioner, I have been able to converge the insights gained in over three decades for ensuring continuum in the returns on development investment while minimising the impact of disasters and climate change on people, economy and environment.",
+            },
+	    {
               name: "Mrityunjay Prajapati",
               role: "Advisory Board",
               summary: "Profile summary coming soon.",
             },
-            {
-              name: "Prof Santosh Kumar",
+	    {
+              name: "Govind Sharma",
               role: "Advisory Board",
               summary: "Profile summary coming soon.",
             },
             {
-              name: "Sonal Verma",
+              name: "Dr. Sonal Verma",
               role: "Legal",
-              summary: "Profile summary coming soon.",
+              summary: "Dr. Sonal is a well-acclaimed professional for his work in regulatory and, compliance programs over the last decade. He had in the past worked with over 1800 clients in India and 61 globally. He has worked with the top 3 unicorns and many Fortune 500 companies.
+
+His clients have been across different industries, viz. Automotive and OEMs, Pharma and Life Sciences, Manufacturing, Chemical Industry, BFSI, Infrastructure and Utilities (including state-owned PSUs), e-Commerce and Fintech Companies, Diversified Conglomerates, etc.
+
+Dr. Sonal has worked on multi-million-dollar mandates for pan-global accounts. He brings insights to clients on the intricate detailing of different laws, their impact, pre-emptive measures, and ways to de-risk the organization.
+
+He spent his initial years in-house at Barclaycard HQ in Northampton, UK. He has also worked in a senior position with a leading Big 4 firm in the legal risk transformation projects.
+
+He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his doctorate in Law, & has pursued numerous courses like “Harvard Mentor Program, Strategy & Sustainability (IIM Bangalore), Regulatory Compliance Specialization (University of Pennsylvania), and Data Ethics, AI, and Responsible Innovation (University of Edinburgh).”",
             },
             {
               name: "Sandeep Dubey",
@@ -154,6 +169,7 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Finance",
               summary: "Profile summary coming soon.",
             },
+	     
           ].map((person) => (
             <div
               key={person.name}
