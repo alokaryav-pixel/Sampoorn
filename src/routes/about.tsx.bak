@@ -127,7 +127,7 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
             {
               name: "Abhishek Verma",
               role: "Director",
-              summary: "Profile summary coming soon.",
+              summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
             {
               name: "Mrityunjay Prajapati",
