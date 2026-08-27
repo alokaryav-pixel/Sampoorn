@@ -149,6 +149,32 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Chartered Accountant",
               summary: "Rajesh is an experienced Chartered Accountant with expertise in financial management, accounting, taxation, audit, compliance, and business advisory. Skilled in financial planning, budgeting, MIS, risk management, statutory reporting, and ensuring regulatory compliance. Strong ability to support strategic decision-making through financial analysis, process improvement, and effective stakeholder management.",
             },
+	    {
+              name: "Mr. Vivek Mall",
+              role: "Country Head - Australia",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Manoj GUpta",
+              role: "Country Head - United Kingdom",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Rigved Sharma",
+              role: "Country Head - UAE",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Shiva Aryal",
+              role: "Country Head - Nepal",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Arjun Gupta",
+              role: "Country Head - Thailand",
+              summary: "Profile summary coming soon.",
+            },    
+	    
             {
               name: "Prof. Santosh Kumar",
               role: "Sr. Consultant - Disaster, Risk & Resilience",
@@ -179,31 +205,7 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Sr. Connsultant - PSUs",
               summary: "Profile summary coming soon.",
             },
-	    {
-              name: "Mr. Vivek Mall",
-              role: "Country Head - Australia",
-              summary: "Profile summary coming soon.",
-            },
-	    {
-              name: "Mr. Manoj GUpta",
-              role: "Country Head - United Kingdom",
-              summary: "Profile summary coming soon.",
-            },
-	    {
-              name: "Mr. Rigved Sharma",
-              role: "Country Head - UAE",
-              summary: "Profile summary coming soon.",
-            },
-	    {
-              name: "Mr. Shiva Aryal",
-              role: "Country Head - Nepal",
-              summary: "Profile summary coming soon.",
-            },
-	    {
-              name: "Mr. Arjun Gupta",
-              role: "Country Head - Thailand",
-              summary: "Profile summary coming soon.",
-            },
+	    
 	    
           ].map((person) => (
             <div

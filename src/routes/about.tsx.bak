@@ -137,17 +137,17 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
 	    {
               name: "Prof. Birendra Kumar",
               role: "Lead – Business Development",
-              summary: "Profile details coming soon",
+              summary: "Prof. Birendra Kumar is a results-driven business development professional with experience in technology-led businesses, enterprise solutions, and strategic partnerships. Proven ability to identify new opportunities, build CXO-level relationships, drive consultative sales, and convert market opportunities into sustainable revenue. Strong in client engagement, solution positioning, ecosystem development, and managing the complete business development lifecycle from lead generation to closure.",
             },
 	    {
               name: "Mr. Anil Pashi",
               role: "Lead – Design & Development",
-              summary: "Profile details coming soon",
+              summary: "Anil is an experienced technology professional with expertise in solution design, product development, and end-to-end technology delivery. Skilled in translating business requirements into scalable, secure, and high-performance digital solutions while leading technical teams and development initiatives. Strong understanding of emerging technologies, architecture, software engineering, and agile delivery, with a focus on innovation, quality, and business impact.",
             },
 	    {
               name: "Mr. Rajesh Goel",
               role: "Chartered Accountant",
-              summary: "Profile details coming soon",
+              summary: "Rajesh is an experienced Chartered Accountant with expertise in financial management, accounting, taxation, audit, compliance, and business advisory. Skilled in financial planning, budgeting, MIS, risk management, statutory reporting, and ensuring regulatory compliance. Strong ability to support strategic decision-making through financial analysis, process improvement, and effective stakeholder management.",
             },
             {
               name: "Prof. Santosh Kumar",
