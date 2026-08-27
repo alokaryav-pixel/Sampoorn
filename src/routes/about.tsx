@@ -117,7 +117,7 @@ function About() {
           {[
             {
               name: "Alok Verma",
-              role: "Chairman",
+              role: "Managing Director",
               summary: `Alok Verma is a technology and business leader with over 25 years of experience in IT and Telecommunications. His expertise spans Telecom OSS/BSS, digital transformation, systems integration, consulting, and enterprise technology services.
 
 An Engineering graduate with a Post Graduate Diploma in Advanced Computing, Alok has held leadership roles at Vodafone UK, RelQ, HP, Intec, CSG, Netcracker, and NEC. He has successfully delivered large-scale technology transformation and product engineering initiatives across global markets.
@@ -126,7 +126,7 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
             },
             {
               name: "Abhishek Verma",
-              role: "Managing Director",
+              role: "Director - Business Development",
               summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
             {
@@ -135,12 +135,12 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               summary: "Ashwin is a technology and solutions expert with strong experience spanning AI, emerging technologies, enterprise solutions, and digital infrastructure. He specializes in customer discovery, problem framing, solution architecture, and translating complex business requirements into practical technology solutions. His expertise combines hands-on experience in AI/LLM applications, agentic workflows, GPU infrastructure, private AI, and data-centre environments. He has worked with leading enterprises across AI, Web3, fintech, and consumer technology, bridging business stakeholders with product and engineering teams. As an entrepreneur, he has also built and scaled an international compute infrastructure business to over £2 million in revenue. He is particularly well suited to forward-deployed, AI solutions, solution consulting, and customer-facing technology roles.",
             },
             {
-              name: "Prof Santosh Kumar",
+              name: "Prof. Santosh Kumar",
               role: "Sr. Consultant - Disaster, Risk & Resilience",
               summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk, climate change, governance &public policy. Formerly, worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management, Director, SAARC Disaster Management Centre (inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). As a development and finance economist and disaster risk reduction strategist & practitioner, I have been able to converge the insights gained in over three decades for ensuring continuum in the returns on development investment while minimising the impact of disasters and climate change on people, economy and environment.",
             },
             {
-              name: "Sonal Verma",
+              name: "Dr. Sonal Verma",
               role: "Sr. Consultant - Legal",
               summary: "Dr. Sonal is a well-acclaimed professional for his work in regulatory and compliance programs over the last decade. He has in the past worked with over 1,800 clients in India and 61 globally. He has worked with the top 3 unicorns and many Fortune 500 companies. His clients have been across different industries, including Automotive and OEMs, Pharma and Life Sciences, Manufacturing, Chemical Industry, BFSI, Infrastructure and Utilities (including state-owned PSUs), e-Commerce and Fintech companies, Diversified Conglomerates, etc. Dr. Sonal has worked on multi-million-dollar mandates for pan-global accounts. He brings insights to clients on the intricate detailing of different laws, their impact, pre-emptive measures, and ways to de-risk the organization. He spent his initial years in-house at Barclaycard HQ in Northampton, UK. He has also worked in a senior position with a leading Big 4 firm in legal risk transformation projects. He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his doctorate in Law and has pursued numerous courses including the Harvard Mentor Program, Strategy & Sustainability from IIM Bangalore, Regulatory Compliance Specialization from the University of Pennsylvania, and Data Ethics, AI, and Responsible Innovation from the University of Edinburgh.",
             },
@@ -154,6 +154,17 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Sr. Consultant - Business Development",
               summary: "Mrityunjaya (Jay) P is a technology entrepreneur, product leader, and startup builder with 16+ years of experience across FinTech, Blockchain, AI, and Education Technology. He has successfully built and scaled digital wallet and payment platforms, achieving transaction volumes exceeding $20M per month and leading international market expansion. An alumnus of MANIT (NIT Bhopal), Jay has also built and exited an early-stage technology venture. As Co-founder and lead at Kalp Studio, he has driven initiatives spanning blockchain infrastructure, digital identity, payments, tokenization, and decentralized technologies. His recent focus includes applying AI and blockchain to education, skilling, digital credentials, and the future of work. He brings a strong combination of technology strategy, product innovation, entrepreneurship, global expansion, and hands-on 0→1 business building.",
             },
+	    {
+              name: "Rajesh Goel",
+              role: "Sr. Consultant - Finance",
+              summary: "Profile details coming soon",
+            },
+	    {
+              name: "Govind Sharma",
+              role: "Sr. Consultant - Wealth Management",
+              summary: "Profile details coming soon",
+            },
+	    
           ].map((person) => (
             <div
               key={person.name}
