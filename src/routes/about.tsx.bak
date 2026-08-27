@@ -141,7 +141,7 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
             },
 	    {
               name: "Mr. Anil Pashi",
-              role: "Head – Design & Development",
+              role: "Lead – Design & Development",
               summary: "Profile details coming soon",
             },
 	    {
@@ -174,8 +174,26 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Sr. Consultant - Business Development",
               summary: "Mrityunjaya (Jay) P is a technology entrepreneur, product leader, and startup builder with 16+ years of experience across FinTech, Blockchain, AI, and Education Technology. He has successfully built and scaled digital wallet and payment platforms, achieving transaction volumes exceeding $20M per month and leading international market expansion. An alumnus of MANIT (NIT Bhopal), Jay has also built and exited an early-stage technology venture. As Co-founder and lead at Kalp Studio, he has driven initiatives spanning blockchain infrastructure, digital identity, payments, tokenization, and decentralized technologies. His recent focus includes applying AI and blockchain to education, skilling, digital credentials, and the future of work. He brings a strong combination of technology strategy, product innovation, entrepreneurship, global expansion, and hands-on 0→1 business building.",
             },
-	    
-	    
+	    {
+              name: "Mr. Vivek Mall",
+              role: "Country Head - Australia",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Manoj GUpta",
+              role: "Country Head - United Kingdom",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Rigved Sharma",
+              role: "Country Head - Middle-East",
+              summary: "Profile summary coming soon.",
+            },
+	    {
+              name: "Mr. Shiva Aryal",
+              role: "Country Head - Nepal",
+              summary: "Profile summary coming soon.",
+            },
 	    
           ].map((person) => (
             <div
