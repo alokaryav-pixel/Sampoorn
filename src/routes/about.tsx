@@ -188,7 +188,7 @@ He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his d
   {person.summary}
 </p>
             </div>
-          ))}
+          ))}]
         </div>
       </Section>
 
