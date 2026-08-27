@@ -137,31 +137,17 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
             {
               name: "Prof Santosh Kumar",
               role: "Sr. Consultant - Disaster, Risk & Resilience",
-              summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk, climate change, governance &public policy. Formerly, worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management, Director, SAARC Disaster Management Centre (inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). 
-
-As a development and finance economist and disaster risk reduction strategist & practitioner, I have been able to converge the insights gained in over three decades for ensuring continuum in the returns on development investment while minimising the impact of disasters and climate change on people, economy and environment.
-",
+              summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk, climate change, governance &public policy. Formerly, worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management, Director, SAARC Disaster Management Centre (inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). As a development and finance economist and disaster risk reduction strategist & practitioner, I have been able to converge the insights gained in over three decades for ensuring continuum in the returns on development investment while minimising the impact of disasters and climate change on people, economy and environment.",
             },
             {
               name: "Sonal Verma",
               role: "Sr. Consultant - Legal",
-              summary: "Dr. Sonal is a well-acclaimed professional for his work in regulatory and compliance programs over the last decade. He has in the past worked with over 1,800 clients in India and 61 globally. He has worked with the top 3 unicorns and many Fortune 500 companies.
-
-His clients have been across different industries, including Automotive and OEMs, Pharma and Life Sciences, Manufacturing, Chemical Industry, BFSI, Infrastructure and Utilities (including state-owned PSUs), e-Commerce and Fintech companies, Diversified Conglomerates, etc.
-
-Dr. Sonal has worked on multi-million-dollar mandates for pan-global accounts. He brings insights to clients on the intricate detailing of different laws, their impact, pre-emptive measures, and ways to de-risk the organization.
-
-He spent his initial years in-house at Barclaycard HQ in Northampton, UK. He has also worked in a senior position with a leading Big 4 firm in legal risk transformation projects.
-
-He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his doctorate in Law and has pursued numerous courses including the Harvard Mentor Program, Strategy & Sustainability from IIM Bangalore, Regulatory Compliance Specialization from the University of Pennsylvania, and Data Ethics, AI, and Responsible Innovation from the University of Edinburgh.",
+              summary: "Dr. Sonal is a well-acclaimed professional for his work in regulatory and compliance programs over the last decade. He has in the past worked with over 1,800 clients in India and 61 globally. He has worked with the top 3 unicorns and many Fortune 500 companies. His clients have been across different industries, including Automotive and OEMs, Pharma and Life Sciences, Manufacturing, Chemical Industry, BFSI, Infrastructure and Utilities (including state-owned PSUs), e-Commerce and Fintech companies, Diversified Conglomerates, etc. Dr. Sonal has worked on multi-million-dollar mandates for pan-global accounts. He brings insights to clients on the intricate detailing of different laws, their impact, pre-emptive measures, and ways to de-risk the organization. He spent his initial years in-house at Barclaycard HQ in Northampton, UK. He has also worked in a senior position with a leading Big 4 firm in legal risk transformation projects. He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his doctorate in Law and has pursued numerous courses including the Harvard Mentor Program, Strategy & Sustainability from IIM Bangalore, Regulatory Compliance Specialization from the University of Pennsylvania, and Data Ethics, AI, and Responsible Innovation from the University of Edinburgh.",
             },
             {
               name: "Sandeep Dubey",
               role: "Sr. Consultant - Legal",
-              summary: "Sandeep Kumar Dubey is an Advocate and Mediator associated with the Supreme Court of India, with professional interests spanning litigation, dispute resolution, mediation and access to justice. His approach places particular emphasis on resolving disputes through dialogue, negotiation and mutually acceptable settlements.
-He has experience in legal practice before various judicial forums and has a strong interest in family disputes, civil and commercial matters, constitutional issues and mediation-based dispute resolution. He believes that timely mediation can help parties preserve relationships, reduce prolonged litigation and achieve practical, sustainable solutions.
-He is also the Chairman of Chhathi Maiya Foundation, a social and cultural organisation working for cultural preservation, social service, environmental awareness and promotion of the Chhath Mahaparv.
-",
+              summary: "Sandeep Kumar Dubey is an Advocate and Mediator associated with the Supreme Court of India, with professional interests spanning litigation, dispute resolution, mediation and access to justice. His approach places particular emphasis on resolving disputes through dialogue, negotiation and mutually acceptable settlements. He has experience in legal practice before various judicial forums and has a strong interest in family disputes, civil and commercial matters, constitutional issues and mediation-based dispute resolution. He believes that timely mediation can help parties preserve relationships, reduce prolonged litigation and achieve practical, sustainable solutions. He is also the Chairman of Chhathi Maiya Foundation, a social and cultural organisation working for cultural preservation, social service, environmental awareness and promotion of the Chhath Mahaparv.",
             },
             {
               name: "Mrityunjaya Prajapathi",
