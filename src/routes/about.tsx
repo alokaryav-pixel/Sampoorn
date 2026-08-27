@@ -127,12 +127,12 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
             {
               name: "Abhishek Verma",
               role: "Managing Director",
-              summary: "Profile summary coming soon.",
+              summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
             {
-              name: "Mrityunjay Prajapati",
-              role: "Advisory Board",
-              summary: "Profile summary coming soon.",
+              name: "Ashwin Abu",
+              role: "Chief Technical Officer",
+              summary: "Ashwin is a technology and solutions expert with strong experience spanning AI, emerging technologies, enterprise solutions, and digital infrastructure. He specializes in customer discovery, problem framing, solution architecture, and translating complex business requirements into practical technology solutions. His expertise combines hands-on experience in AI/LLM applications, agentic workflows, GPU infrastructure, private AI, and data-centre environments. He has worked with leading enterprises across AI, Web3, fintech, and consumer technology, bridging business stakeholders with product and engineering teams. As an entrepreneur, he has also built and scaled an international compute infrastructure business to over £2 million in revenue. He is particularly well suited to forward-deployed, AI solutions, solution consulting, and customer-facing technology roles.",
             },
             {
               name: "Prof Santosh Kumar",
