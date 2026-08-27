@@ -116,7 +116,7 @@ function About() {
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              name: "Alok Verma",
+              name: "Mr. Alok Verma",
               role: "Managing Director",
               summary: `Alok Verma is a technology and business leader with over 25 years of experience in IT and Telecommunications. His expertise spans Telecom OSS/BSS, digital transformation, systems integration, consulting, and enterprise technology services.
 
@@ -125,14 +125,29 @@ An Engineering graduate with a Post Graduate Diploma in Advanced Computing, Alok
 As Managing Director of Sampoorn Solutions, Alok drives the company's vision across IT Services, Education, Consulting, and Engineering. He is passionate about innovation, strategic partnerships, talent development, and building technology solutions that create lasting value for customers.`,
             },
             {
-              name: "Abhishek Verma",
+              name: "Mr. Abhishek Verma",
               role: "Director - Business Development",
               summary: "Abhishek Verma is a dynamic business leader and strategic professional. He has strong expertise in government liaison, PSU and Ministry coordination, corporate networking, and business development. With an extensive professional network across government departments, Ministries, PSUs, and regulatory bodies, he facilitates strategic partnerships and institutional engagements. He also has deep understanding of the real estate and infrastructure ecosystem and strong relationships with leading residential and industrial builders. His leadership strengths include strategic planning, stakeholder management, brand positioning, and driving large-scale business and infrastructure collaborations.",
             },
             {
-              name: "Ashwin Abu",
+              name: "Mr. Ashwin Abu",
               role: "Chief Technical Officer",
               summary: "Ashwin is a technology and solutions expert with strong experience spanning AI, emerging technologies, enterprise solutions, and digital infrastructure. He specializes in customer discovery, problem framing, solution architecture, and translating complex business requirements into practical technology solutions. His expertise combines hands-on experience in AI/LLM applications, agentic workflows, GPU infrastructure, private AI, and data-centre environments. He has worked with leading enterprises across AI, Web3, fintech, and consumer technology, bridging business stakeholders with product and engineering teams. As an entrepreneur, he has also built and scaled an international compute infrastructure business to over £2 million in revenue. He is particularly well suited to forward-deployed, AI solutions, solution consulting, and customer-facing technology roles.",
+            },
+	    {
+              name: "Prof. Birendra Kumar",
+              role: "Lead – Business Development",
+              summary: "Profile details coming soon",
+            },
+	    {
+              name: "Mr. Anil Pashi",
+              role: "Head – Design & Development",
+              summary: "Profile details coming soon",
+            },
+	    {
+              name: "Mr. Rajesh Goel",
+              role: "Chartered Accountant",
+              summary: "Profile details coming soon",
             },
             {
               name: "Prof. Santosh Kumar",
@@ -145,6 +160,11 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               summary: "Dr. Sonal is a well-acclaimed professional for his work in regulatory and compliance programs over the last decade. He has in the past worked with over 1,800 clients in India and 61 globally. He has worked with the top 3 unicorns and many Fortune 500 companies. His clients have been across different industries, including Automotive and OEMs, Pharma and Life Sciences, Manufacturing, Chemical Industry, BFSI, Infrastructure and Utilities (including state-owned PSUs), e-Commerce and Fintech companies, Diversified Conglomerates, etc. Dr. Sonal has worked on multi-million-dollar mandates for pan-global accounts. He brings insights to clients on the intricate detailing of different laws, their impact, pre-emptive measures, and ways to de-risk the organization. He spent his initial years in-house at Barclaycard HQ in Northampton, UK. He has also worked in a senior position with a leading Big 4 firm in legal risk transformation projects. He is enrolled with the Bar of Maharashtra & Goa in 2007. He has completed his doctorate in Law and has pursued numerous courses including the Harvard Mentor Program, Strategy & Sustainability from IIM Bangalore, Regulatory Compliance Specialization from the University of Pennsylvania, and Data Ethics, AI, and Responsible Innovation from the University of Edinburgh.",
             },
             {
+              name: "Govind Sharma",
+              role: "Sr. Consultant - Wealth Management",
+              summary: "Profile details coming soon",
+            },
+	    {
               name: "Sandeep Dubey",
               role: "Sr. Consultant - Legal",
               summary: "Sandeep Kumar Dubey is an Advocate and Mediator associated with the Supreme Court of India, with professional interests spanning litigation, dispute resolution, mediation and access to justice. His approach places particular emphasis on resolving disputes through dialogue, negotiation and mutually acceptable settlements. He has experience in legal practice before various judicial forums and has a strong interest in family disputes, civil and commercial matters, constitutional issues and mediation-based dispute resolution. He believes that timely mediation can help parties preserve relationships, reduce prolonged litigation and achieve practical, sustainable solutions. He is also the Chairman of Chhathi Maiya Foundation, a social and cultural organisation working for cultural preservation, social service, environmental awareness and promotion of the Chhath Mahaparv.",
@@ -154,16 +174,8 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
               role: "Sr. Consultant - Business Development",
               summary: "Mrityunjaya (Jay) P is a technology entrepreneur, product leader, and startup builder with 16+ years of experience across FinTech, Blockchain, AI, and Education Technology. He has successfully built and scaled digital wallet and payment platforms, achieving transaction volumes exceeding $20M per month and leading international market expansion. An alumnus of MANIT (NIT Bhopal), Jay has also built and exited an early-stage technology venture. As Co-founder and lead at Kalp Studio, he has driven initiatives spanning blockchain infrastructure, digital identity, payments, tokenization, and decentralized technologies. His recent focus includes applying AI and blockchain to education, skilling, digital credentials, and the future of work. He brings a strong combination of technology strategy, product innovation, entrepreneurship, global expansion, and hands-on 0→1 business building.",
             },
-	    {
-              name: "Rajesh Goel",
-              role: "Sr. Consultant - Finance",
-              summary: "Profile details coming soon",
-            },
-	    {
-              name: "Govind Sharma",
-              role: "Sr. Consultant - Wealth Management",
-              summary: "Profile details coming soon",
-            },
+	    
+	    
 	    
           ].map((person) => (
             <div
