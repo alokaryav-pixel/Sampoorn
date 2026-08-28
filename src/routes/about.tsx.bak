@@ -152,27 +152,26 @@ As Managing Director of Sampoorn Solutions, Alok drives the company's vision acr
 	    {
               name: "Mr. Vivek Mall",
               role: "Country Head - Australia",
-              summary: "Profile summary coming soon.",
             },
 	    {
-              name: "Mr. Manoj GUpta",
+              name: "Mr. Manoj Gupta",
               role: "Country Head - United Kingdom",
-              summary: "Profile summary coming soon.",
             },
+	     {
+              name: "Mr. Ramesh Ranganathan",
+              role: "Country Head - Ireland",
+            }, 
 	    {
               name: "Mr. Rigved Sharma",
               role: "Country Head - UAE",
-              summary: "Profile summary coming soon.",
             },
 	    {
               name: "Mr. Shiva Aryal",
               role: "Country Head - Nepal",
-              summary: "Profile summary coming soon.",
             },
 	    {
               name: "Mr. Arjun Gupta",
               role: "Country Head - Thailand",
-              summary: "Profile summary coming soon.",
             },    
 	    
             {

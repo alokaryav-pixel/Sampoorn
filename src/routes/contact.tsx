@@ -16,7 +16,8 @@ export const Route = createFileRoute("/contact")({
 });
 
 const LOCATIONS = [
-  { c: "Noida", a: "Headquarters", l: "C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India" },
+  { c: "India", a: "Headquarters", l: "C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India" },
+  { c: "UAE", a: "Dubai Office", l: "Empire Height, Tower-B, 13F-B-05, Business Bay Dubai, UAE" },
 ];
 
 function Contact() {
@@ -37,7 +38,7 @@ function Contact() {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>,
   ) => setValues((v) => ({ ...v, [k]: e.target.value }));
 
-  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const emailRe = info@sampoorn.in;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -132,7 +133,7 @@ function Contact() {
           >
             <div className="grid gap-6 md:grid-cols-2">
               <Field label="Full name" placeholder="Jane Doe" value={values.fullName} onChange={update("fullName")} />
-              <Field label="Work email" type="email" placeholder="alok@sampoorn.in" value={values.workEmail} onChange={update("workEmail")} />
+              <Field label="Work email" type="email" placeholder="name@company.com" value={values.workEmail} onChange={update("workEmail")} />
               <Field label="Company" placeholder="Company name" value={values.company} onChange={update("company")} />
               <Field label="Role" placeholder="Title" value={values.role} onChange={update("role")} />
             </div>
