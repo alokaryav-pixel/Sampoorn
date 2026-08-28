@@ -16,8 +16,9 @@ export const Route = createFileRoute("/contact")({
 });
 
 const LOCATIONS = [
-  { c: "India - Headquarters", a: "NOIDA", l: "C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India" },
+  { c: "India", a: "NOIDA-Headquarter", l: "C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India" },
   { c: "Australia", a: "SYDNEY", l: "Unit 14, 13 Berry Street, CLYDE, NSW 2142, , Australia" },
+  { c: "UAE", a: "Dubai", l: "Empire Height, Towe-B, 13F-B-05, 13th Floor, Business Bay, Dubai, UAE" },
 ];
 
 function Contact() {
