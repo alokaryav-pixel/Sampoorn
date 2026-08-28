@@ -37,7 +37,7 @@ function Contact() {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>,
   ) => setValues((v) => ({ ...v, [k]: e.target.value }));
 
-  const emailRe = info@sampoorn.in;
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
