@@ -86,12 +86,12 @@ function Contact() {
       />
 
       <Section>
-        <div className="grid gap-16 lg:grid-cols-12">
-          <div className="lg:col-span-5">
+        <div className="grid gap-14 lg:grid-cols-10">
+          <div className="lg:col-span-4">
             <Eyebrow>Direct</Eyebrow>
-            <ul className="mt-6 space-y-6">
-              <li className="flex items-start gap-4">
-                <Mail className="mt-1 h-5 w-5 text-muted-foreground" />
+            <ul className="mt-5 space-y-5">
+              <li className="flex items-start gap-3">
+                <Mail className="mt-1 h-4 w-4 text-muted-foreground" />
                 <div>
                   <div className="text-sm text-muted-foreground">Write to us</div>
                   <div className="text-lg font-medium tracking-tight">info@sampoorn.in</div>

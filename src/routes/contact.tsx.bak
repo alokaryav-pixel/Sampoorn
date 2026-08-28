@@ -102,14 +102,14 @@ function Contact() {
                 <div>
                   <div className="text-sm text-muted-foreground">Call Us 24/7</div>
                   <div className="text-lg font-medium tracking-tight">+91 (0)120 462 0008</div>
-                  <div className="text-lg font-medium tracking-tight">+91 (0)991 188 8099</div>
+                  <div className="text-lg font-medium tracking-tight">+91 9911 888 099</div>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <MapPin className="mt-1 h-5 w-5 text-muted-foreground" />
                 <div>
                   <div className="text-sm text-muted-foreground">Our Location</div>
-                  <div className="text-lg font-medium tracking-tight">C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India</div>
+                  <div className="text-lg font-medium tracking-tight">C-147, Hosiery Complex, Phase-2, Noida-201307, UP, India</div>
                 </div>
               </li>
             </ul>
@@ -133,7 +133,7 @@ function Contact() {
             className="lg:col-span-7 rounded-3xl border hairline p-8 md:p-12 bg-background"
           >
             <div className="grid gap-6 md:grid-cols-2">
-              <Field label="Full name" placeholder="Jane Doe" value={values.fullName} onChange={update("fullName")} />
+              <Field label="Full name" placeholder="Alok Verma" value={values.fullName} onChange={update("fullName")} />
               <Field label="Work email" type="email" placeholder="name@company.com" value={values.workEmail} onChange={update("workEmail")} />
               <Field label="Company" placeholder="Company name" value={values.company} onChange={update("company")} />
               <Field label="Role" placeholder="Title" value={values.role} onChange={update("role")} />
