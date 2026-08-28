@@ -102,7 +102,7 @@ function Home() {
           />
         </div>
 
-        <div className="container-page pt-18 pb-14 md:pt-30 md:pb-22">
+        <div className="container-page pt-14 pb-10 md:pt-26 md:pb-18">
           <Eyebrow>HOME</Eyebrow>
           <h1 className="mt-8 max-w-5xl text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-foreground leading-[1.02]">
             Technology that drives <span className="serif italic text-foreground">business.</span>
