@@ -17,7 +17,6 @@ export const Route = createFileRoute("/contact")({
 
 const LOCATIONS = [
   { c: "India", a: "Headquarters", l: "C-147, Hosiery Complex, Phase 2, Noida - 201307, U.P., India" },
-  { c: "UAE", a: "Dubai Office", l: "Empire Height, Tower-B, 13F-B-05, Business Bay Dubai, UAE" },
 ];
 
 function Contact() {
