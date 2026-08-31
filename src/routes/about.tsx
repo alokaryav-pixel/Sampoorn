@@ -136,12 +136,12 @@ function About() {
               summary: "Prof. Birendra Kumar is a results-driven business development professional with experience in technology-led businesses, enterprise solutions, and strategic partnerships. Proven ability to identify new opportunities, build CXO-level relationships, drive consultative sales, and convert market opportunities into sustainable revenue. Strong in client engagement, solution positioning, ecosystem development, and managing the complete business development lifecycle from lead generation to closure.",
             },
 	    {
-              name: "Mr. Anil Pashi",
+              name: "Mr. Anil Pasi",
               role: "Lead – Design & Development",
               summary: "Anil is an experienced technology professional with expertise in solution design, product development, and end-to-end technology delivery. Skilled in translating business requirements into scalable, secure, and high-performance digital solutions while leading technical teams and development initiatives. Strong understanding of emerging technologies, architecture, software engineering, and agile delivery, with a focus on innovation, quality, and business impact.",
             },
 	    {
-              name: "Mr. Rajesh Goel",
+              name: "CA Rajesh Goel",
               role: "Chartered Accountant",
               summary: "Rajesh is an experienced Chartered Accountant with expertise in financial management, accounting, taxation, audit, compliance, and business advisory. Skilled in financial planning, budgeting, MIS, risk management, statutory reporting, and ensuring regulatory compliance. Strong ability to support strategic decision-making through financial analysis, process improvement, and effective stakeholder management.",
             },
@@ -151,12 +151,8 @@ function About() {
 	      summary: "An accomplished Director and security industry professional with extensive experience in security operations, investigations, business management, risk management, and strategic leadership. With a demonstrated history of leading complex security operations, the Director brings a strong understanding of the challenges involved in protecting people, assets, businesses, and critical infrastructure. Highly experienced in Crisis Management, Operations Management, Emergency Management, Risk Management, Security Operations, and Security Tactics, with a strong commitment to maintaining the highest standards of professionalism, compliance, safety, integrity, and client service. The Director combines extensive industry experience with a strong academic background in information technology, holding a Postgraduate Diploma in Information Technology, with a focus on Computer Science, from Central Queensland University, Sydney. With a strong focus on leadership, innovation, accountability, and continuous improvement, the Director is committed to building high-performing teams and delivering reliable, professional, and effective security solutions across a diverse range of industries.",
             },
 	    {
-              name: "Mr. Manoj Gupta",
-              role: "Country Head - United Kingdom",
-            },
-	     {
               name: "Mr. Ramesh Ranganathan",
-              role: "Country Head - Ireland",
+              role: "Country Head - United Kingdom",
             }, 
 	    {
               name: "Mr. Rigved Sharma",

@@ -107,8 +107,8 @@ function Home() {
           <h1 className="mt-8 max-w-5xl text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-foreground leading-[1.02]">
             Technology that drives <span className="serif italic text-foreground">business.</span>
           </h1>
-          <p className="mt-10 max-w-2xl text-lg md:text-xl text-muted-foreground leading-relaxed">
-            We help organizations innovate, transform, and grow through technology consulting, enterprise solutions, digital products and professional services, delivering measurable outcomes that create lasting business value.-
+          <p className="mt-16 max-w-2xl text-lg md:text-xl text-muted-foreground leading-relaxed">
+            We help organizations innovate, transform, and grow through technology consulting, enterprise solutions, digital products and professional services, delivering measurable outcomes that create lasting business value.
 	    With an outcome-focused approach, we help clients accelerate digital initiatives, modernize technology environments, improve operational efficiency, and turn technology investments into tangible business results.
           </p>
           <div className="mt-12 flex flex-wrap items-center gap-3">
