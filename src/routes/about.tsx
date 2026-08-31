@@ -113,8 +113,8 @@ function About() {
 
       <Section className="!pt-0">
         <SectionHeading eyebrow="Leadership" title="A senior team," serifPart="present in the work." />
-	< title= ""/>
-	< title= ""/>
+	< title=""/>
+	< title=""/>
         <seriPart="Core Team"/>
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
