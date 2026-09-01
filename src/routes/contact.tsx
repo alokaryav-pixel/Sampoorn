@@ -91,26 +91,23 @@ function Contact() {
             <div>
               <Eyebrow>Direct</Eyebrow>
               <ul className="mt-5 space-y-4">
+                <li className="flex items-center gap-3">
+                  <Mail className="h-4 w-4 shrink-0 text-muted-foreground" />
+                  <a href="mailto:info@sampoorn.in" className="text-base font-medium tracking-tight hover:opacity-80">
+                    info@sampoorn.in
+                  </a>
+                </li>
                 <li className="flex items-start gap-3">
-                  <Mail className="mt-1 h-4 w-4 text-muted-foreground" />
-                  <div>
-                    <div className="text-sm text-muted-foreground">Write to us</div>
-                    <div className="text-base font-medium tracking-tight">info@sampoorn.in</div>
+                  <Phone className="mt-1 h-4 w-4 shrink-0 text-muted-foreground" />
+                  <div className="text-base font-medium tracking-tight">
+                    <a href="tel:+911204620008" className="block hover:opacity-80">+91 (0)120 462 0008</a>
+                    <a href="tel:+919911888099" className="block hover:opacity-80">+91 9911 888 099</a>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Phone className="mt-1 h-4 w-4 text-muted-foreground" />
-                  <div>
-                    <div className="text-sm text-muted-foreground">Call Us 24/7</div>
-                    <div className="text-base font-medium tracking-tight">+91 (0)120 462 0008</div>
-                    <div className="text-base font-medium tracking-tight">+91 9911 888 099</div>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <MapPin className="mt-1 h-4 w-4 text-muted-foreground" />
-                  <div>
-                    <div className="text-sm text-muted-foreground">Our Location</div>
-                    <div className="text-base font-medium tracking-tight">C-147, Hosiery Complex, Phase-2, Noida-201307, UP, India</div>
+                  <MapPin className="mt-1 h-4 w-4 shrink-0 text-muted-foreground" />
+                  <div className="text-base font-medium tracking-tight">
+                    C-147, Hosiery Complex, Phase-2, Noida-201307, UP, India
                   </div>
                 </li>
               </ul>
