@@ -85,41 +85,43 @@ function Contact() {
         lede="Enterprise inquiries, partnerships, careers and press. A senior member of our team will read what you send."
       />
 
-      <Section>
-        <div className="grid gap-16 lg:grid-cols-12">
-          <div className="lg:col-span-6">
-            <Eyebrow>Direct</Eyebrow>
-            <ul className="mt-6 space-y-6">
-              <li className="flex items-start gap-4">
-                <Mail className="mt-1 h-5 w-5 text-muted-foreground" />
-                <div>
-                  <div className="text-sm text-muted-foreground">Write to us</div>
-                  <div className="text-lg font-medium tracking-tight">info@sampoorn.in</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <Phone className="mt-1 h-5 w-5 text-muted-foreground" />
-                <div>
-                  <div className="text-sm text-muted-foreground">Call Us 24/7</div>
-                  <div className="text-lg font-medium tracking-tight">+91 (0)120 462 0008</div>
-                  <div className="text-lg font-medium tracking-tight">+91 9911 888 099</div>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <MapPin className="mt-1 h-5 w-5 text-muted-foreground" />
-                <div>
-                  <div className="text-sm text-muted-foreground">Our Location</div>
-                  <div className="text-lg font-medium tracking-tight">C-147, Hosiery Complex, Phase-2, Noida-201307, UP, India</div>
-                </div>
-              </li>
-            </ul>
+      <Section className="!pt-10 !pb-16 md:!pt-12 md:!pb-20">
+        <div className="grid items-stretch gap-8 lg:grid-cols-12 lg:gap-10">
+          <div className="flex h-full flex-col justify-between lg:col-span-5">
+            <div>
+              <Eyebrow>Direct</Eyebrow>
+              <ul className="mt-5 space-y-4">
+                <li className="flex items-start gap-3">
+                  <Mail className="mt-1 h-4 w-4 text-muted-foreground" />
+                  <div>
+                    <div className="text-sm text-muted-foreground">Write to us</div>
+                    <div className="text-base font-medium tracking-tight">info@sampoorn.in</div>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Phone className="mt-1 h-4 w-4 text-muted-foreground" />
+                  <div>
+                    <div className="text-sm text-muted-foreground">Call Us 24/7</div>
+                    <div className="text-base font-medium tracking-tight">+91 (0)120 462 0008</div>
+                    <div className="text-base font-medium tracking-tight">+91 9911 888 099</div>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <MapPin className="mt-1 h-4 w-4 text-muted-foreground" />
+                  <div>
+                    <div className="text-sm text-muted-foreground">Our Location</div>
+                    <div className="text-base font-medium tracking-tight">C-147, Hosiery Complex, Phase-2, Noida-201307, UP, India</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
 
-            <div className="mt-16">
+            <div className="mt-10">
               <Eyebrow>Locations</Eyebrow>
-              <ul className="mt-6 grid grid-cols-2 gap-4">
+              <ul className="mt-5 space-y-3">
                 {LOCATIONS.map((l) => (
-                  <li key={l.c} className="border-t hairline pt-4">
-                    <div className="text-lg font-medium tracking-tight">{l.c}</div>
+                  <li key={l.c} className="border-t hairline pt-3">
+                    <div className="text-base font-medium tracking-tight">{l.c}</div>
                     <div className="text-xs text-muted-foreground">{l.a}</div>
                     <div className="text-xs text-muted-foreground">{l.l}</div>
                   </li>
@@ -130,44 +132,42 @@ function Contact() {
 
           <form
             onSubmit={handleSubmit}
-            className="lg:col-span-7 rounded-3xl border hairline p-8 md:p-12 bg-background"
+            className="flex h-full flex-col rounded-2xl border hairline bg-background p-5 md:p-6 lg:col-span-6 lg:col-start-7"
           >
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-2">
               <Field label="Full name" placeholder="Alok Verma" value={values.fullName} onChange={update("fullName")} />
               <Field label="Work email" type="email" placeholder="name@company.com" value={values.workEmail} onChange={update("workEmail")} />
               <Field label="Company" placeholder="Company name" value={values.company} onChange={update("company")} />
               <Field label="Role" placeholder="Title" value={values.role} onChange={update("role")} />
-            </div>
-            <div className="mt-6 grid gap-6 md:grid-cols-2">
               <Select label="Interest" value={values.interest} onChange={update("interest")} options={["IT Services", "Consulting", "Professional Services", "Education", "Blockchain", "Products", "Careers", "Other"]} />
               <Select label="Region" value={values.region} onChange={update("region")} options={["Americas", "Europe", "APAC", "Global"]} />
             </div>
-            <div className="mt-6">
+            <div className="mt-4 flex-1">
               <label className="eyebrow">Message</label>
               <textarea
-                rows={5}
+                rows={3}
                 placeholder="What are you trying to build?"
                 value={values.message}
                 onChange={update("message")}
-                className="mt-3 w-full resize-none rounded-2xl border hairline bg-background p-4 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
+                className="mt-2 min-h-[5.5rem] w-full resize-none rounded-xl border hairline bg-background p-3 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
               />
             </div>
             {status === "success" && (
-              <div className="mt-6 rounded-2xl border hairline bg-secondary/40 p-4 text-sm text-foreground">
+              <div className="mt-4 rounded-xl border hairline bg-secondary/40 p-3 text-sm text-foreground">
                 Thank you. Your enquiry has been submitted successfully. Our team will contact you shortly.
               </div>
             )}
             {status === "error" && (
-              <div className="mt-6 rounded-2xl border border-red-500/30 bg-red-500/5 p-4 text-sm text-red-600">
+              <div className="mt-4 rounded-xl border border-red-500/30 bg-red-500/5 p-3 text-sm text-red-600">
                 {errorMsg || "Something went wrong. Please try again."}
               </div>
             )}
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="text-xs text-muted-foreground">By submitting you agree to our privacy notice.</div>
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="inline-flex h-12 items-center gap-2 rounded-full bg-foreground px-6 text-sm font-medium text-background hover:opacity-90 transition disabled:opacity-60 disabled:cursor-not-allowed"
+                className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-foreground px-5 text-sm font-medium text-background hover:opacity-90 transition disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 {status === "sending" ? "Sending..." : "Send message"}
               </button>
@@ -213,7 +213,7 @@ function Field({
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className="mt-3 h-12 w-full rounded-full border hairline bg-background px-5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
+        className="mt-1.5 h-10 w-full rounded-full border hairline bg-background px-4 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
       />
     </label>
   );
@@ -236,7 +236,7 @@ function Select({
       <select
         value={value}
         onChange={onChange}
-        className="mt-3 h-12 w-full rounded-full border hairline bg-background px-5 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
+        className="mt-1.5 h-10 w-full rounded-full border hairline bg-background px-4 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--electric)]/40"
       >
         {options.map((o) => <option key={o}>{o}</option>)}
       </select>
