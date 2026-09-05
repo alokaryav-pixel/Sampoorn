@@ -166,32 +166,32 @@ function About() {
 	    
             {
               name: "Prof. Santosh Kumar",
-              role: "Sr. Consultant - Disaster, Risk & Resilience",
+              role: "Advisory Board - Disaster, Risk & Resilience",
               summary: "Currently, Chief Executive Officer at International Institute of Security and safety Management (IISSM). A development economist Working for last three decades on disaster risk, climate change, governance &public policy. Formerly, worked as Disaster Management Specialist, the World Bank, Professor & Executive Director at the National Institute of Disaster Management, Director, SAARC Disaster Management Centre (inter-governmental body) & Professor, Rajasthan Institute of Public Administration (Jaipur, Rajasthan). As a development and finance economist and disaster risk reduction strategist & practitioner, I have been able to converge the insights gained in over three decades for ensuring continuum in the returns on development investment while minimising the impact of disasters and climate change on people, economy and environment.",
             },
             {
               name: "Dr. Sonal Verma",
-              role: "Sr. Consultant - Legal",
+              role: "Advisory Board - Legal",
               summary: "Dr. Sonal is a seasoned legal, regulatory and compliance professional with 10+ years of experience advising leading enterprises, unicorns and Fortune 500 companies. He has worked with 1,800+ clients in India and 61 globally across diverse industries, specialising in regulatory strategy, legal-risk transformation, compliance and organisational de-risking. With experience at Barclaycard UK and a leading Big 4 firm, he brings strong international expertise, complemented by a Doctorate in Law and specialisation in AI, data ethics, regulatory compliance, strategy and responsible innovation.",
             },
             {
               name: "Mr. Govind Sharma",
-              role: "Sr. Consultant - Wealth Management",
+              role: "Advisory Board - Wealth Management",
               summary: "Profile details coming soon",
             },
 	    {
               name: "Mr. Sandeep Dubey",
-              role: "Sr. Consultant - Legal",
+              role: "Advisory Board - Legal",
               summary: "Sandeep Kumar Dubey is an Advocate and Mediator associated with the Supreme Court of India, with professional interests spanning litigation, dispute resolution, mediation and access to justice. His approach places particular emphasis on resolving disputes through dialogue, negotiation and mutually acceptable settlements. He has experience in legal practice before various judicial forums and has a strong interest in family disputes, civil and commercial matters, constitutional issues and mediation-based dispute resolution. He believes that timely mediation can help parties preserve relationships, reduce prolonged litigation and achieve practical, sustainable solutions. He is also the Chairman of Chhathi Maiya Foundation, a social and cultural organisation working for cultural preservation, social service, environmental awareness and promotion of the Chhath Mahaparv.",
             },
             {
               name: "Mr. Mrityunjaya Prajapathi",
-              role: "Sr. Consultant - Business Development",
+              role: "Advisory Board - Technology & Innovation",
               summary: "Mrityunjaya (Jay) P is a technology entrepreneur, product leader, and startup builder with 16+ years of experience across FinTech, Blockchain, AI, and Education Technology. He has successfully built and scaled digital wallet and payment platforms, achieving transaction volumes exceeding $20M per month and leading international market expansion. An alumnus of MANIT (NIT Bhopal), Jay has also built and exited an early-stage technology venture. As Co-founder and lead at Kalp Studio, he has driven initiatives spanning blockchain infrastructure, digital identity, payments, tokenization, and decentralized technologies. His recent focus includes applying AI and blockchain to education, skilling, digital credentials, and the future of work. He brings a strong combination of technology strategy, product innovation, entrepreneurship, global expansion, and hands-on 0→1 business building.",
             },
 	    {
               name: "Mr. Durga Singh Bhandari",
-              role: "Sr. Connsultant - PSUs",
+              role: "Advisory Board - PSUs",
               summary: "Profile summary coming soon.",
             },
 	    
