@@ -1,29 +1,48 @@
-# Welcome to your Lovable project
+# Sampoorn website
 
-This project was built with [Lovable](https://lovable.dev).
+Local copy of the [www.sampoorn.in](https://www.sampoorn.in) site, sourced from GitHub: [alokaryav-pixel/Sampoorn](https://github.com/alokaryav-pixel/Sampoorn).
 
-## Build with Lovable
+Use this workspace to edit and preview on localhost, then push to GitHub so Vercel can update the live site.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Run locally
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+You need Node.js 22+ (npm is enough; bun is optional).
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
 
-## Built with
+The app listens on [http://127.0.0.1:43127](http://127.0.0.1:43127).
 
-- TanStack Start
-- TypeScript
-- React
+Other useful scripts:
+
+```sh
+npm run build    # production build
+npm run preview  # serve the production build
+npm run lint
+```
+
+## Push to live (www.sampoorn.in)
+
+The production site is hosted on **Vercel** and is connected to the GitHub repo `alokaryav-pixel/Sampoorn`.
+
+1. Commit your changes.
+2. Push to GitHub `main` (the branch Vercel deploys from):
+
+```sh
+git push github main
+```
+
+Vercel will build and publish to [https://www.sampoorn.in](https://www.sampoorn.in). Do not push until you have reviewed the local preview.
+
+This Cursor workspace remote (`origin`) is separate from GitHub (`github`). Live deploys only happen when you push to GitHub.
+
+## Stack
+
+- TanStack Start (Vite)
+- TypeScript / React
 - Tailwind CSS
+- shadcn/ui
+
+Originally generated with [Lovable](https://lovable.dev). Commits pushed to the connected GitHub branch also sync back to Lovable.
